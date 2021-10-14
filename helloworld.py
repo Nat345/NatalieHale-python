@@ -1,0 +1,5 @@
+print("Hello, World!")
+print("a lot of stuff")
+print("yes")
+print("no")
+print("maybe so")

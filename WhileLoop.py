@@ -9,7 +9,9 @@ print(" ------------------------------------------------")
 x = str("IST")
 answer = str(input("What is the name of this subject "))
 if x == answer:
-    print ("Congratulations!!")
+    print(" ")
+    print (" Congratulations!!")
+    print(" ")
 
 while x != answer:
     print("Not Correct - try again")

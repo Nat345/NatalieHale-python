@@ -10,7 +10,10 @@ x = str("IST")
 answer = str(input("What is the name of this subject "))
 if x == answer:
     print(" ")
+    print(" ")
     print (" Congratulations!!")
+    print(" ")
+    print(" ")
     print(" ")
 
 while x != answer:
@@ -18,7 +21,10 @@ while x != answer:
     answer = str(input("What is the name of this subject "))
     if x == answer:
         print(" ")
+        print(" ")
         print (" Congratulations!!")
+        print(" ")
+        print(" ")
         print(" ")
 
 

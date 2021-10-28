@@ -1,4 +1,18 @@
-   
+def xyz():
+  x=2
+  print(x)   
+  print(y)
+
+print("let's start")
+x=1
+y=10
+xyz()
+print("done")
+
+
+
+
+
 i = 1
 while i < 6:
   print(i)

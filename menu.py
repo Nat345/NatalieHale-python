@@ -33,6 +33,26 @@ def forloop5():
 
 def whileloop6():
     print("----Start of Output ---------------------------")
+    x = str("IST")
+    answer = str(input("What is the name of this subject "))
+    if x == answer:
+        print(" ")
+        print(" ")
+        print (" Congratulations!!")
+        print(" ")
+        print(" ")
+        print(" ")
+
+    while x != answer:
+        print("Not Correct - try again")
+        answer = str(input("What is the name of this subject "))
+        if x == answer:
+            print(" ")
+            print(" ")
+            print (" Congratulations!!")
+            print(" ")
+            print(" ")
+            print(" ")
     print("----End of Output -----------------------------")
 
 

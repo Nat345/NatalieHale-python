@@ -16,7 +16,7 @@ def goodbyePerson3():
     print("Goodbye " + name)
     print("----End of Output -----------------------------")
 
-def goodbyeTeacher4():
+def goodTeacher4():
     print("----Start of Output ---------------------------")
     name = input("Teacher's name (try Mr Horan) ")
     if name == "Mr Horan":
@@ -56,24 +56,48 @@ def whileloop6():
     print("----End of Output -----------------------------")
 
 
-print(" ------------------------------------------------")
-print("|                                                |")
-print("|    07Menu                                      |")
-print("|    Name : Natalie                              |")
-print("|    Version : 01                                |")
-print("|                                                |")
-print(" ------------------------------------------------")
-print("1. Hello World")
-print("2. Goodbye World")
-print("3. Goodbye Person")
-print("4. Good Teacher")
-print("5. forLoop")
-print("6. whileLoop")
-print("7. string Loop")
-print("8. Convert to ascii")
-print("9. Encode a string")
-print("x. To Exit")
-input("Enter an option ")
 
+
+x=("x")
+
+while input != x:
+    print(" ------------------------------------------------")
+    print("|                                                |")
+    print("|    07Menu                                      |")
+    print("|    Name : Natalie                              |")
+    print("|    Version : 01                                |")
+    print("|                                                |")
+    print(" ------------------------------------------------")
+    print("1. Hello World")
+    print("2. Goodbye World")
+    print("3. Goodbye Person")
+    print("4. Good Teacher")
+    print("5. forLoop")
+    print("6. whileLoop")
+    print("7. string Loop")
+    print("8. Convert to ascii")
+    print("9. Encode a string")
+    print("x. To Exit")
+    input("Enter an option ")
+    if input == 1:
+        helloWorld1()
+    if input == 2:
+        goodbyeWorld2()
+    if input == 3:
+        goodbyePerson3()
+    if input == 4:
+        goodTeacher4()
+    if input == 5:
+        forloop5()
+    if input == 6:
+        whileloop6()
+    else:
+        print("----Start of Output ---------------------------")
+        print(" ")
+        print("invalid option")
+        print(" ")
+        print("----End of Output -----------------------------")
+
+input("Press Enter to continue")
 
 

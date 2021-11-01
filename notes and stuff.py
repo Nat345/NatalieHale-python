@@ -77,31 +77,22 @@ def options():
 
 
 
-x=("x")
-
-options()
-
-while input != x:
-    input("Enter an option ")
-    if input == "1":
-        helloWorld1()
-    if input == "2":
-        goodbyeWorld2()
-    if input == "3":
-        goodbyePerson3()
-    if input == "4":
-        goodTeacher4()
-    if input == "5":
-        forloop5()
-    if input == "6":
-        whileloop6()
-    else:
-        print("----Start of Output ---------------------------")
-        print(" ")
-        print("invalid option")
-        print(" ")
-        print("----End of Output -----------------------------")
-
-input("Press Enter to continue")
-
-
+str(input("Enter an option "))
+if input == "1":
+    helloWorld1()
+if input == "2":
+    goodbyeWorld2()
+if input == "3":
+    goodbyePerson3()
+if input == "4":
+    goodTeacher4()
+if input == "5":
+    forloop5()
+if input == "6":
+    whileloop6()
+else:
+    print("----Start of Output ---------------------------")
+    print(" ")
+    print("invalid option")
+    print(" ")
+    print("----End of Output -----------------------------")

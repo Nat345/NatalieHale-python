@@ -1,3 +1,4 @@
+# variables 
 def helloWorld1():
     print("----Start of Output ---------------------------")
     print("Hello World")
@@ -9,6 +10,7 @@ def goodbyeWorld2():
     print("Hello World")
     input("------> Program paused - press enter to continue")
     print("Goodbye World")
+    print("----End of Output -----------------------------")
 
 def goodbyePerson3():
     print("----Start of Output ---------------------------")
@@ -55,53 +57,74 @@ def whileloop6():
             print(" ")
     print("----End of Output -----------------------------")
 
-def options():
-    print(" ------------------------------------------------")
-    print("|                                                |")
-    print("|    07Menu                                      |")
-    print("|    Name : Natalie                              |")
-    print("|    Version : 01                                |")
-    print("|                                                |")
-    print(" ------------------------------------------------")
-    print("1. Hello World")
-    print("2. Goodbye World")
-    print("3. Goodbye Person")
-    print("4. Good Teacher")
-    print("5. forLoop")
-    print("6. whileLoop")
-    print("7. string Loop")
-    print("8. Convert to ascii")
-    print("9. Encode a string")
-    print("x. To Exit")
+#start of code
 
-
+print(" ------------------------------------------------")
+print("|                                                |")
+print("|    07Menu                                      |")
+print("|    Name : Natalie                              |")
+print("|    Version : 01                                |")
+print("|                                                |")
+print(" ------------------------------------------------")
+print("1. Hello World")
+print("2. Goodbye World")
+print("3. Goodbye Person")
+print("4. Good Teacher")
+print("5. forLoop")
+print("6. whileLoop")
+print("7. string Loop")
+print("8. Convert to ascii")
+print("9. Encode a string")
+print("x. To Exit")
 
 
 x=("x")
 
-options()
+variableInput = input("Enter an option ")
 
-while input != x:
-    input("Enter an option ")
-    if input == "1":
+if variableInput == x:
+    print(" ")
+    print("----Start of Output ---------------------------")
+    print(" ")
+    print(" ")
+    print("----End of Output -----------------------------")
+    print(" ")
+    print(" ")
+    print(" ")
+
+
+while variableInput != x:
+    variableInput = input("Enter an option ")
+    
+    if variableInput == "1":
         helloWorld1()
-    if input == "2":
+    if variableInput == "2":
         goodbyeWorld2()
-    if input == "3":
+    if variableInput == "3":
         goodbyePerson3()
-    if input == "4":
+    if variableInput == "4":
         goodTeacher4()
-    if input == "5":
+    if variableInput == "5":
         forloop5()
-    if input == "6":
+    if variableInput == "6":
         whileloop6()
-    else:
+    if variableInput == x:
+        print(" ")
+        print("----Start of Output ---------------------------")
+        print(" ")
+        print(" ")
+        print("----End of Output -----------------------------")
+        print(" ")
+        print(" ")
+        print(" ")
+else:
         print("----Start of Output ---------------------------")
         print(" ")
         print("invalid option")
         print(" ")
         print("----End of Output -----------------------------")
 
+
 input("Press Enter to continue")
 
-
+#clear
